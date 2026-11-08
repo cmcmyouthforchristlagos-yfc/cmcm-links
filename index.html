@@ -3,7 +3,7 @@
      Sheet rows used: youtube, facebook
      Fallback values below work even without the Sheet. -->
 <script>
-  const SHEET_ID = "PASTE_SHEET_ID_HERE";
+  const SHEET_ID = "https://docs.google.com/spreadsheets/d/1gORaXofT5gZ7kPiqGrwyfV4-U6ORtb6p/edit?usp=sharing&ouid=105645331286037118685&rtpof=true&sd=true";
   const DATA = { youtube: "YOUTUBE_URL", facebook: "FACEBOOK_URL" };
   function apply(){
     if(DATA.youtube.indexOf("http")===0)  document.getElementById('ytBtn').href = DATA.youtube;
