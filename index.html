@@ -4,7 +4,8 @@
      Fallback values below work even without the Sheet. -->
 <script>
   const SHEET_ID = "https://docs.google.com/spreadsheets/d/1n3fNSmHF1SuyQL4zW4UB4MPHGLfx8ym4/edit?usp=sharing&ouid=105645331286037118685&rtpof=true&sd=true";
- 
+ const DATA = { youtube: "https://youtube.com/live/tk4kMKgJJ3w?feature=share", facebook: "https://web.facebook.com/share/v/1dr2Yezc2E/" };
+     
   function apply(){
     if(DATA.youtube.indexOf("http")===0)  document.getElementById('ytBtn').href = DATA.youtube;
     if(DATA.facebook.indexOf("http")===0) document.getElementById('fbBtn').href = DATA.facebook;
