@@ -3,8 +3,8 @@
      Sheet rows used: youtube, facebook
      Fallback values below work even without the Sheet. -->
 <script>
-  const SHEET_ID = "https://docs.google.com/spreadsheets/d/1gORaXofT5gZ7kPiqGrwyfV4-U6ORtb6p/edit?gid=828993324#gid=828993324";
- const DATA = { youtube: "https://www.youtube.com/watch?v=xEbKF_kJOok", facebook: "https://www.facebook.com/share/v/1bg7EosjpX/" };
+  const SHEET_ID = "https://docs.google.com/spreadsheets/d/1n3fNSmHF1SuyQL4zW4UB4MPHGLfx8ym4/edit?usp=sharing&ouid=105645331286037118685&rtpof=true&sd=true";
+ 
   function apply(){
     if(DATA.youtube.indexOf("http")===0)  document.getElementById('ytBtn').href = DATA.youtube;
     if(DATA.facebook.indexOf("http")===0) document.getElementById('fbBtn').href = DATA.facebook;
